@@ -19,8 +19,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <Link color="inherit" href="#!">
-        Arya Studios
+      <Link color="inherit" href="http://m.facebook.com/ironimouse/">
+        MhmdSairi
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -33,7 +33,7 @@ const useStyles = makeStyles(theme => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://cdn.idntimes.com/content-images/post/20190911/0-0d254764b565f997c60e894c3b4eab8d_600x400.jpg)',
+    backgroundImage: 'url(https://www.pinterest.com/pin/734438651715814985/)',
     backgroundRepeat: 'no-repeat',
     backgroundColor:
       theme.palette.type === 'dark' ? theme.palette.grey[900] : theme.palette.grey[50],
